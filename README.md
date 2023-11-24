@@ -9,9 +9,7 @@ Mainly, I wanted a solution to this - and I wanted to test coding with C# with C
 It checks for window positions every 500ms and always updates the position. It detects volume changes that it did not do itself, and tries to respect them.
 
 # How to use
-Set up git, and your C# SDK and so on.
-
-Then "git clone" this repository, open the resulting folder your C# IDE of choice (I use VSCode), and compile/run it.
+Download the installer from the releases, install, then run WinPan whenever you like to move around your sound-playing-window. Terminate it with CTRL-C, and upon exiting it will restore center balance. That's it - not much more to it.
 
 Not much to this. It looks for windows with active audio sessions. If only one is found, it sets the left/right balance of the system audio relative to the horizontal position of that window on your screen(s). Supports multiple screens, but does not take into account pixel density (it assumes that screens and pixel density are roughly corresponding to your screen positions).
 
