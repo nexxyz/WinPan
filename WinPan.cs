@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Drawing;
-using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 using NAudio.CoreAudioApi;
-using NAudio.Wasapi.CoreAudioApi; // This is a wrapper for the Windows Core Audio API
-
 
 partial class WinPan
 {
