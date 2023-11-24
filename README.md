@@ -4,6 +4,8 @@ A little Windows tool that pans audio to the horizontal location of the window, 
 # Why?
 I like it, because sometimes I do stuff while watching youtube, and it annoyed me that sound is always coming from the "front". Now I can move the Youtube window to a side, and audio will move with it.
 
+Mainly, I wanted a solution to this - and I wanted to test coding with C# with ChatGPT 4 as my copilot. I'm not a C# person, but I made do. So here it is.
+
 It checks for window positions every 500ms and always updates the position. It detects volume changes that it did not do itself, and tries to respect them.
 
 # How to use
