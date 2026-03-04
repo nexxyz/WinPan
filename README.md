@@ -1,3 +1,15 @@
+# This repository is obsolete
+
+This project has been replaced by:
+
+https://github.com/nexxyz/WinPanX.2
+
+WinPan X.2 is the maintained and improved successor.
+
+This repository is no longer maintained.
+
+---
+
 # WinPan
 A little Windows tool that pans audio to the horizontal location of the window, as long as there is only one window with audio.
 
@@ -17,3 +29,4 @@ Not much to this. It looks for windows with active audio sessions. If only one i
 Stero only (e.g. only channels 1 and 2 of your default audio interface are affected). The reason this is just active when only one window has an audio session, is that the Windows API does not allow you to control the stereo/multiple channel of a particular program, just its overall volume. So it seems right now there is no chance of panning multiple audio streams around separately. And moving them all to a side seemed - very messy. 
 
 Maybe at some I'll make it configurable, or even build a little UI, but for now this is it.
+
